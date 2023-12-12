@@ -1,0 +1,18 @@
+.header__lang-list-item {
+   margin-left: 18px;
+   transition: opacity 0.4s;
+ }
+ 
+ .header__lang-list-item:hover {
+   opacity: 0.5;
+ }
+ 
+ .header__lang-list-item:first-of-type {
+   margin-left: 0;
+ }
+ 
+ @media screen and (max-width: 320px) {
+   .header__lang-list-item {
+     margin-left: 5.62vw;
+   }
+ }
