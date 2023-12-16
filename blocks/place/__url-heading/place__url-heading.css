@@ -9,15 +9,15 @@
    letter-spacing: 2px;
  }
  
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 1023px) {
    .place__url-heading {
      line-height: 1;
    }
  }
  
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 767px) {
    .place__url-heading {
-     font-size: 3.75vw;
-     margin-bottom: 3.75vw;
+     /* font-size: 3.75vw;
+     margin-bottom: 3.75vw; */
    }
  }
